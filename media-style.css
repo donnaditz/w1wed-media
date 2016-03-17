@@ -38,3 +38,15 @@ img.small-photo{
         background-color: red;
     }
 }
+/*Print stylesheet */
+
+@media print  {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+    }
+    a[href]::after{
+        content: " [" attr(href)"]";
+        color: blue;
+    }
+}
