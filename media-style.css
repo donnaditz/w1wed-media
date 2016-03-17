@@ -1,0 +1,40 @@
+.column{
+  width: 31%;
+  float:left;
+  text-align: justify;
+  padding-left: 10px;
+}
+.column p span {
+  font-style: italic;
+  font-weight: bolder;
+  color: red;
+}
+.column p a {
+  font-weight: bolder;
+  color: blue;
+}
+
+.bg-color1{
+  background-color: #ffcc99;
+}
+.bg-color2{
+  background-color: #dfff80;
+}
+.bg-color3{
+  background-color: #99ffff;
+}
+
+img.small-photo{
+  width:100%;
+  float:left;
+}
+@media only screen and (min-width: 800px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    body {
+        background-color: red;
+    }
+}
